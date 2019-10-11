@@ -14,9 +14,8 @@ function addExcitement (theWordArray) {
 
 
     for (let i = 0; i < theWordArray.length; i++) {
-         ;
         
-        if (i % 3 === 0) {
+        if ((i + 1) % 3 === 0) {
          
             buildMeUp = `${buildMeUp} ${theWordArray[i]}!` 
         }
