@@ -17,7 +17,7 @@ function addExcitement (theWordArray, punctuation) {
         
         if ((i + 1) % 3 === 0) {
          
-            buildMeUp = `${buildMeUp} ${theWordArray[i]}!` 
+            buildMeUp = `${buildMeUp} ${theWordArray[i]}${punctuation}` 
         }
 
         else {
@@ -34,4 +34,4 @@ function addExcitement (theWordArray, punctuation) {
 }
 
 // Invoke the function and pass in the array
-addExcitement(sentence)
+addExcitement(sentence, "?")
